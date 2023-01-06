@@ -11,9 +11,6 @@ if (event.currentTarget.email.value === '' || event.currentTarget.password.value
     alert("Заповніть усі поля");
     return 
 }
-
-console.log({ email:event.currentTarget.email.value, password: event.currentTarget.password.value });
-
     event.currentTarget.reset();
 }
 
